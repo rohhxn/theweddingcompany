@@ -45,15 +45,15 @@
 @layer components {
   /* Main Quiz Card Container */
   .quiz-card {
-    @apply bg-white rounded-[42px];
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    @apply bg-white rounded-[3rem];
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
     position: relative;
     z-index: 10;
     max-width: 1200px;
     width: 90vw;
     max-height: 85vh;
     margin: 0 auto;
-    padding: 28px 40px 140px 40px; /* Balanced padding with room for cat paw */
+    padding: 28px 40px 140px 40px;
     height: auto;
     display: flex;
     align-items: center;
@@ -67,6 +67,8 @@
     padding: 24px 36px; /* Removed extra bottom padding */
     min-height: auto;
     width: 100%;
+    max-width: 48rem; /* Center content with max-width */
+    margin: 0 auto; /* Center horizontally */
     display: flex;
     flex-direction: column;
     justify-content: center;
