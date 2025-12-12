@@ -71,7 +71,7 @@
     width: 85%;
     max-width: 920px;
     /* Perfect centering within parent */
-    margin: 0 auto;
+    margin: 20px auto 0 auto; /* Move down by 20px with top margin */
     /* Flexbox for internal content alignment */
     display: flex;
     flex-direction: column;
