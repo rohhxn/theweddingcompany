@@ -29,19 +29,19 @@ const CatPawMascot: React.FC<CatPawMascotProps> = ({
         {/* Hand-drawn Speech Bubble SVG */}
         <div className="speech-bubble-svg">
           <svg
-            width="170"
-            height="80"
-            viewBox="0 0 170 80"
+            width="110"
+            height="50"
+            viewBox="0 0 110 50"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             style={{ transform: 'rotate(2.56deg)' }}
           >
             {/* Main bubble path - hand-drawn irregular shape */}
             <path
-              d="M10 12C10 6 13 2 18 2H152C157 2 160 6 160 12V48C160 54 157 58 152 58H105L95 68L88 58H18C13 58 10 54 10 48V12Z"
+              d="M8 10C8 5 10 2 14 2H96C100 2 102 5 102 10V36C102 41 100 44 96 44H68L60 50L54 44H14C10 44 8 41 8 36V10Z"
               fill="white"
               stroke="#77C7E3"
-              strokeWidth="2.5"
+              strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
               style={{

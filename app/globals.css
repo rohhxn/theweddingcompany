@@ -67,6 +67,8 @@
     padding: 24px 36px; /* Removed extra bottom padding */
     min-height: auto;
     width: 100%;
+    max-width: 900px; /* Center content with max-width */
+    margin: 0 auto; /* Center horizontally */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,14 +184,14 @@
 
   /* Speech Bubble - Hand-drawn SVG style */
   .speech-bubble-svg {
-    width: 140px;
-    height: 65px;
+    width: 110px;
+    height: 50px;
     position: relative;
   }
 
   .speech-bubble-text {
     font-family: 'Caveat Brush', cursive;
-    font-size: 24px;
+    font-size: 20px;
     color: #15313D;
     text-align: center;
     line-height: 1;
@@ -198,8 +200,8 @@
 
   /* Cat Paw Image */
   .cat-paw-image {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     animation: gentleBounce 2s ease-in-out infinite;
   }
