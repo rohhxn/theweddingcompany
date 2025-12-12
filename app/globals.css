@@ -79,21 +79,22 @@
     font-size: 90px;
     font-style: italic;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: -4px;
     text-align: center;
     background: linear-gradient(180deg, #15313D 0%, #3CABDA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
+    padding-top: 10px;
   }
 
   /* Subtitle Text */
   .quiz-subtitle {
-    @apply text-center text-[#2D3748] text-xs;
-    margin-bottom: 16px;
-    margin-top: 12px;
+    @apply text-center text-[#2D3748] text-sm;
+    margin-bottom: 24px;
+    margin-top: 8px;
   }
 
   /* Progress Bar Container */
