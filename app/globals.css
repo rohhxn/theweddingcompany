@@ -75,16 +75,14 @@
 
   /* Quiz Title Styling */
   .quiz-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 42px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 90px;
     font-style: italic;
     font-weight: 400;
-    line-height: 1;
+    line-height: 24px;
+    letter-spacing: -4px;
     text-align: center;
-    background: linear-gradient(135deg, #15313D 0%, #2C5F6F 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #15313D;
     margin-bottom: 4px;
   }
 
