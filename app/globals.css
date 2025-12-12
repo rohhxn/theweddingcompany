@@ -82,7 +82,10 @@
     line-height: 24px;
     letter-spacing: -4px;
     text-align: center;
-    color: #15313D;
+    background: linear-gradient(180deg, #15313D 0%, #3CABDA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: 4px;
   }
 
@@ -90,6 +93,7 @@
   .quiz-subtitle {
     @apply text-center text-[#2D3748] text-xs;
     margin-bottom: 16px;
+    margin-top: 12px;
   }
 
   /* Progress Bar Container */
